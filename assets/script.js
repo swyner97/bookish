@@ -1,12 +1,2 @@
-let getFrontCover = function(cover) {
-
-    let apiUrl = 'https://books.google.com/books?id=Py8u3Obs4f4C&printsec=frontcover';
-
-    fetch(apiUrl).then(function(response) {
-        response.json().then(function(data) {
-            console.log(data);
-        });
-    });
-};
-
-getFrontCover();
+var token = config.MY_API_TOKEN; 
+var key = config.SECRET_API_KEY;
